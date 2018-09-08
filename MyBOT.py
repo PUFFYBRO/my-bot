@@ -39,6 +39,14 @@ while True:
             vk.method('messages.send', {'peer_id': id, 'message': 'Ты как?'})
         elif body.lower() == 'хорошо':
             vk.method('messages.send', {'peer_id': id, 'message': 'Вот и славненько!)'})
+        elif body.lower() == 'пидор':
+            vk.method('messages.send', {'peer_id': id, 'message': 'Не стоит обзываться!(от пидора слышу)'})
+        elif body.lower() == 'хуй':
+            vk.method('messages.send', {'peer_id': id, 'message': 'Не стоит обзываться!(от хуеплета слышу)'})
+        elif body.lower() == 'сука':
+            vk.method('messages.send', {'peer_id': id, 'message': 'Не стоит обзываться!(от суки слышу)'})
+        elif body.lower() == 'заебал':
+            vk.method('messages.send', {'peer_id': id, 'message': 'Этого я и добивался ;)'})
         else:
             vk.method('messages.send', {'peer_id': id, 'message': 'Я тебя не понимаю:('})
 
